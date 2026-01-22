@@ -23,9 +23,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://l15-onlinecardappwebservice.onrender.com",  // Fixed: removed "http://" prefix
-  // Add your frontend deployment URL here when you deploy
-  // "https://your-frontend-app.netlify.com"
+  "https://l15-onlinecardappwebservice.onrender.com",
 ];
 
 app.use(
